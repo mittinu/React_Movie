@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 1rem;
+    font-family: system-ui, sans-serif;
+    color: white;
+    background-color: black;
+  }
+  
+  h1 {
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+  
+  .outer-div {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 10;
+  }
+  
+  .inner-div {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .date-div {
+    width: 52px;
+    height: 23px;
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: rgb(255, 255, 255);
+    box-shadow: none;
+  }
+  
